@@ -88,7 +88,7 @@ Response:
 ```
 
 #### <a name="update"></a> Update a Person
-Endpoint: PATCH /api/{id}
+Endpoint: PATCH /api/{user_id}
 
 Request Body:
 
@@ -133,17 +133,17 @@ The following are some requests that you can use to interact with the api
 
 * Create a new person:
 ```bash
-curl -X POST example.com/api -H "Content-Type: application/json" -d '{"name": "Mark Essien"}'
+curl -X POST https://hng-task2-q5k1.onrender.com/api -H "Content-Type: application/json" -d '{"name": "Mark Essien"}'
 ```
 * Retrieve a particular person:
 ```bash
-curl example.com/api/1
+curl https://hng-task2-q5k1.onrender.com/api/1
 ```
 * Update a Person:
 ```bash
-curl -X PATCH example.com/api/1 -H "Content-Type: application/json" -d '{"name": "Elon musk"}'
+curl -X PATCH https://hng-task2-q5k1.onrender.com/api/1 -H "Content-Type: application/json" -d '{"name": "Elon musk"}'
 ```
 * delete a Person:
 ```bash
-curl -X DELETE example.com/api/1
+curl -X DELETE https://hng-task2-q5k1.onrender.com/api/1
 ```

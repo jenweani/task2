@@ -71,7 +71,7 @@ All responses use the JSON format.
 
 Request:
 ```bash
-curl -X POST example.com/api -H "Content-Type: application/json" -d '{"name": "Mark Essien"}'
+curl -X POST https://hng-task2-q5k1.onrender.com/api -H "Content-Type: application/json" -d '{"name": "Mark Essien"}'
 ```
 
 Response:
@@ -91,7 +91,7 @@ Response:
 
 Request:
 ```bash
-curl example.com/api/2
+curl https://hng-task2-q5k1.onrender.com/api/2
 ```
 
 Response:
@@ -109,7 +109,7 @@ Response:
 #### Retrieve a particular person by name:
 Request:
 ```bash
-curl example.com/api/0 -H "Content-Type: application/json" -d '{"name": "Mark Essien}
+curl https://hng-task2-q5k1.onrender.com/api/0 -H "Content-Type: application/json" -d '{"name": "Mark Essien}
 ```
 Response:
 ```json
@@ -126,7 +126,7 @@ Response:
 #### Update a Person:
 Request:
 ```bash
-curl -X PATCH example.com/api/1 -H "Content-Type: application/json" -d '{"name": "Elon musk"}'
+curl -X PATCH https://hng-task2-q5k1.onrender.com/api/1 -H "Content-Type: application/json" -d '{"name": "Elon musk"}'
 ```
 
 Response:
@@ -144,7 +144,7 @@ Response:
 #### delete a Person:
 Request:
 ```bash
-curl -X DELETE example.com/api/1
+curl -X DELETE https://hng-task2-q5k1.onrender.com/api/1
 ```
 
 Response:
