@@ -18,6 +18,9 @@ The Person API is a simple RESTful API that allows you to manage person records.
 ID: Unique identifier for the person, it auto increments.
 Name: person's full name, should be unique.
 
+#### UML Diagram of the Person Model
+![UML diagram](https://github.com/jenweani/task2/blob/main/uml_diagram_person.jpg?raw=true)
+
 #### <a name="base-url"></a> Base URL
 The base URL for all API endpoints is:
 

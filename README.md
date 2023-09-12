@@ -4,10 +4,10 @@ This is a simple API that allows you to perform CRUD operations on a "Person" da
 You can create, read, update, and delete person records using HTTP requests POST, GET, PATCH and DELETE respectively.
 
 #### Live URL
-Click [link]() to interact with the api
+Live URL to interact with the api: https://hng-task2-q5k1.onrender.com/api
 
 #### UML Diagram of the Person Model
-[UML diagram](https://github.com/jenweani/task2/blob/main/uml_diagram_person.jpg?raw=true)
+![UML diagram](https://github.com/jenweani/task2/blob/main/uml_diagram_person.jpg?raw=true)
 
 ### Table of Contents
 * [Prerequisites](#prereq)
