@@ -9,6 +9,10 @@ Live URL to interact with the api: https://hng-task2-q5k1.onrender.com/api
 #### UML Diagram of the Person Model
 ![UML diagram](https://github.com/jenweani/task2/blob/main/uml_diagram_person.jpg?raw=true)
 
+#### Postman Test JSON File
+The test file is in the repo
+Link to [Test File](https://github.com/jenweani/task2/blob/main/hng-task2.postman_collection.json) 
+
 ### Table of Contents
 * [Prerequisites](#prereq)
 * [Installation](#install)
