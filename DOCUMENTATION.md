@@ -2,15 +2,15 @@
 The Person API allows you to perform CRUD (Create, Read, Update, Delete) operations on person records. This API provides endpoints for managing individual person records.
 
 #### Table of Contents
-[Introduction](#intro)
-[Base URL](#base-url)
-[Build and Run](#run)
-[Endpoints](#endpoints)
-* [Create a Person](#create)
-* [Retrieve a Person](#retrieve)
-* [Update a Person](#update)
-* [Delete a Person](#delete)
-[Request and Response Formats](#examples)
+* [Introduction](#intro)
+* [Base URL](#base-url)
+* [Build and Run](#run)
+* [Endpoints](#endpoints)
+    * [Create a Person](#create)
+    * [Retrieve a Person](#retrieve)
+    * [Update a Person](#update)
+    * [Delete a Person](#delete)
+* [Request and Response Formats](#examples)
 
 ### <a name="intro"></a> Introduction
 The Person API is a simple RESTful API that allows you to manage person records. Each person record has the following attributes:
