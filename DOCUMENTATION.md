@@ -64,12 +64,15 @@ Response: HTTP status code 204 (No Content) upon successful deletion.
 These are examples showing the request formats allowed and their responses.
 All responses use the JSON format.
 
-* Create a new person:
+#### Create a new person:
+
 Request:
 ```bash
 curl -X POST example.com/api -H "Content-Type: application/json" -d '{"name": "Mark Essien"}'
 ```
+
 Response:
+
 ```json
 {
     "status": 201,
@@ -81,11 +84,13 @@ Response:
 }
 ```
 
-* Retrieve a particular person by id:
+#### Retrieve a particular person by id:
+
 Request:
 ```bash
 curl example.com/api/2
 ```
+
 Response:
 ```json
 {
@@ -98,7 +103,7 @@ Response:
 }
 ```
 
-* Retrieve a particular person by name:
+#### Retrieve a particular person by name:
 Request:
 ```bash
 curl example.com/api/0 -H "Content-Type: application/json" -d '{"name": "Mark Essien}
@@ -115,7 +120,7 @@ Response:
 }
 ```
 
-* Update a Person:
+#### Update a Person:
 Request:
 ```bash
 curl -X PATCH example.com/api/1 -H "Content-Type: application/json" -d '{"name": "Elon musk"}'
@@ -133,7 +138,7 @@ Response:
 }
 ```
 
-* delete a Person:
+#### delete a Person:
 Request:
 ```bash
 curl -X DELETE example.com/api/1
