@@ -12,55 +12,55 @@ The Person API allows you to perform CRUD (Create, Read, Update, Delete) operati
 * [Delete a Person](#delete)
 [Request and Response Formats](#examples)
 
-### Introduction {#intro}
+### <a name="intro"></a> Introduction
 The Person API is a simple RESTful API that allows you to manage person records. Each person record has the following attributes:
 
 ID: Unique identifier for the person, it auto increments.
 Name: person's full name, should be unique.
 
-#### Base URL {#base-url}
+#### <a name="base-url"></a> Base URL
 The base URL for all API endpoints is:
 
 ```url
 https://.com/api
 ```
 
-### Run {#run}
+### <a name="run"></a> Run
 * build and run the api locally
 ```bash
 go run main.go 
 ```
 The api should run locally on port 80
 
-### Endpoints {#endpoints}
+### <a name="endpoints"></a> Endpoints
 
-#### Create a Person {#create}
+#### <a name="create"></a> Create a Person
 Endpoint: POST /api
 Description: Create a new person record.
 Request Body: JSON object with the following fields:
 * name (string, required): The person's full name.
 Response: JSON object representing the created person record, HTTP status code 201.
 
-#### Retrieve a Person {#retrieve}
+#### <a name="retrieve"></a> Retrieve a Person
 Endpoint: GET /api/{user_id}
 Description: Retrieve a person record by ID. You can also retrieve a person using the name field passed as a JSON object but the user_id must be set to zero to do so.
 Request Body: JSON object with the following fields:
 * name (string, required): The person's full name.
 Response: JSON object representing the retrieved person record, HTTP status code 200.
 
-#### Update a Person {#update}
+#### <a name="update"></a> Update a Person
 Endpoint: PUT /api/{user_id}
 Description: Update a person record by ID.
 Request Body: JSON object with the following fields:
 * name (string): The person's full name.
 Response: JSON object representing the updated person record, HTTP status code 200.
 
-#### Delete a Person {#delete}
+#### <a name="delete"></a> Delete a Person
 Endpoint: DELETE /api/{user_id}
 Description: Delete a person record by ID.
 Response: HTTP status code 204 (No Content) upon successful deletion.
 
-### Request and Response Formats {#examples}
+### <a name="examples"></a> Request and Response Formats
 These are examples showing the request formats allowed and their responses.
 All responses use the JSON format.
 

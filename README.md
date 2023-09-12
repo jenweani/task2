@@ -21,30 +21,30 @@ Click [link]() to interact with the api
 * [Endpoints](#endpoints)
 * [Example Requests](#examples)
 
-### Prerequisites {#prereq}
+### <a name="prereq"></a> Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 * Go (Golang) installed on your machine.
 * An IDE of your choice.
 * An HTTP client (e.g., curl, Postman, or your web browser) to interact with the API.
 
-### Installation {#install}
+### <a name="install"></a> Installation
 * Clone the repository
 ```bash
 git clone `https://github.com/jenweani/task2.git`
 ```
 
-### Run {#run}
+### <a name="run"></a> Run
 * build and run the api
 ```bash
 go run main.go 
 ```
 The api should run locally on port 80
 
-#### Usage {#usage}
+#### <a name="usage"></a> Usage
 You can interact with the API using HTTP requests. Here are examples of how to perform CRUD operations on the "Person" data structure:
 
-#### Create a Person {#create}
+#### <a name="create"></a> Create a Person
 Endpoint: POST /api
 
 Request Body:
@@ -67,7 +67,7 @@ Response:
 }
 ```
 
-#### Retrieve a Person {#retrieve}
+#### <a name="retrieve"></a> Retrieve a Person
 Endpoint: GET /api/{user_id}
 
 Response:
@@ -83,7 +83,7 @@ Response:
 }
 ```
 
-#### Update a Person {#update}
+#### <a name="update"></a> Update a Person
 Endpoint: PATCH /api/{id}
 
 Request Body:
@@ -106,7 +106,7 @@ Response:
 }
 ```
 
-#### Delete a Person {#delete}
+#### <a name="delete"></a> Delete a Person
 Endpoint: DELETE /api/{user_id}
 
 Response: 
@@ -118,13 +118,13 @@ Response:
 }
 ```
 
-### Endpoints {#endpoints}
+### <a name="endpoints"></a> Endpoints
 * POST /api: Create a new person.
 * GET /api/{user_id}: Retrieve a person.
 * PUT /api/{user_id}: Update a person.
 * DELETE /api/{user_id}: Delete a person.
 
-### Example Requests {#examples}
+### <a name="examples"></a> Example Requests
 The following are some requests that you can use to interact with the api
 
 * Create a new person:
